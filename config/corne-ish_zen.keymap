@@ -99,17 +99,18 @@
                         >;
                 };
 
-                nav_layer {
-                        label = "NAV";
+                numpad_layer {
+                        label = "NUMPAD";
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-      &bt BT_CLR   &none         &kp HOME       &kp UP        &kp END      &PG_UP             &kp F1       &kp F2         &kp F3        &kp F4       &kp F5        &kp F6
+      &bt BT_CLR   &none         &none         &none         &bt BT_PRV   &bt BT_NXT         &kp MINUS    &kp N7         &kp N8         &kp N9      &kp FSLH      &kp BSLH
 // ├─────────────┼─────────────┼─────────────┼─────────────┼────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &kp CAPS     &kp CLEAR     &kp LEFT      &kp DOWN       &kp RIGHT    &PG_DN             &kp F7       &kp F8         &kp F9        &kp F10      &kp F11       &kp F12
+//      &none        &none         &mkp LCLK     &mkp RLCK     &none        &none            &kp PLUS     &kp N4         &kp N5         &kp N6      &kp STAR      &kp KP_NUM
+      &none        &none         &none         &none           &none        &none            &kp PLUS     &kp N4         &kp N5         &kp N6      &kp STAR      &kp KP_NUM
 // ├─────────────┼─────────────┼─────────────┼─────────────┼────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &none        &none         &none         &none         &none        &none               &kp F13      &kp F14        &kp F15       &kp F16      &kp F17       &kp F18
+      &none        &none         &none         &none         &none          &none              &kp N0       &kp N1         &kp N2         &kp N3      &kp DOT       &kp ENTER
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────┴─────────────╯
-                                                  &none       &kp DEL     &mo NUMPAD         &none         &kp SPC       &trans
+                                                  &kp F13     &none         &none              &none       &kp SPC       &trans
 //                                            ╰─────────────┴───────────┴─────────────┤   ├─────────────┴────────────┴─────────────╯ 
                         >;
                 };
