@@ -69,17 +69,18 @@
                         >;
                 };
 
-                syms_layer {
-                        label = "SYMS";
+                numpad_layer {
+                        label = "NUMPAD";
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-      &none         &none         &none          &none         &none        &none           &kp EXCL       &kp AT        &kp HASH      &kp DLLR      &kp PRCNT     &none
+      &bt BT_CLR   &none         &none         &none         &bt BT_PRV   &bt BT_NXT         &kp MINUS    &kp N7         &kp N8         &kp N9      &kp FSLH      &kp BSLH
 // ├─────────────┼─────────────┼─────────────┼─────────────┼────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &none         &none         &none          &none        &mo SYMS2     &none           &kp LPAR       &kp LBKT      &kp LBRC      &kp LT        &kp EQUAL     &kp PIPE
+//      &none        &none         &mkp LCLK     &mkp RLCK     &none        &none            &kp PLUS     &kp N4         &kp N5         &kp N6      &kp STAR      &kp KP_NUM
+      &none        &none         &none         &none           &none        &none            &kp PLUS     &kp N4         &kp N5         &kp N6      &kp STAR      &kp KP_NUM
 // ├─────────────┼─────────────┼─────────────┼─────────────┼────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &none         &none         &none          &none         &none        &none           &kp CARET      &kp AMPS      &kp STAR      &kp none      &kp BSLH      &kp PLUS 
+      &none        &none         &none         &none         &none          &none              &kp N0       &kp N1         &kp N2         &kp N3      &kp DOT       &kp ENTER
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────┴─────────────╯
-                                                &none          &none        &none           &none           &none         &none
+                                                  &kp F13     &none         &none              &none       &kp SPC       &trans
 //                                            ╰─────────────┴───────────┴─────────────┤   ├─────────────┴────────────┴─────────────╯ 
                         >;
                 };
