@@ -73,11 +73,11 @@
                         label = "SYMS";
                         bindings = <
 // ╭─────────────┬─────────────┬─────────────┬─────────────┬────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-      &none         &none         &none          &none         &none        &none           &kp EXCL       &kp AT        &kp HASH      &kp DLLR      &kp PRCNT    &kp CARET
+      &none         &none         &none          &none         &none        &none           &kp EXCL       &kp AT        &kp HASH      &kp DLLR      &kp PRCNT     &kp TILDE2
 // ├─────────────┼─────────────┼─────────────┼─────────────┼────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &none         &none         &none          &none        &mo SYMS2     &none           &kp LPAR       &kp LBKT      &kp LBRC      &kp LT       &kp EQUAL     &kp PIPE
+      &none         &none         &none          &none        &mo SYMS2     &none           &kp LPAR       &kp LBKT      &kp LBRC      &kp LT        &kp EQUAL     &kp PIPE
 // ├─────────────┼─────────────┼─────────────┼─────────────┼────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-      &none         &none         &none          &none         &none        &none           &kp AMPS       &kp STAR      &kp NUHS      &kp PLUS      &kp BSLH      &kp PLUS 
+      &none         &none         &none          &none         &none        &none           &kp CARET      &kp AMPS      &kp STAR      &kp NUHS      &kp BSLH      &kp PLUS 
 // ╰─────────────┴─────────────┴─────────────┼─────────────┼────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────┴─────────────╯
                                                 &none          &none        &none           &none           &none         &none
 //                                            ╰─────────────┴───────────┴─────────────┤   ├─────────────┴────────────┴─────────────╯ 
