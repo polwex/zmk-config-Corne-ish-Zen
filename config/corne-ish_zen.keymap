@@ -69,23 +69,6 @@
                         >;
                 };
 
-                syms_layer {
-                        label = "SYMS";
-                        bindings = <
-// ╭─────────────┬─────────────┬─────────────┬─────────────┬────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-//      &none         &none         &none          &none         &none        &none           &kp EXCL       &kp AT        &kp HASH      &kp DLLR      &kp PRCNT     &kp PLUS
-      &none         &none         &none           &none         &none       &none             &none        &none          &none        &none         &none         &none
-// ├─────────────┼─────────────┼─────────────┼─────────────┼────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-//      &none         &none         &none          &none         &none        &none           &kp LPAR       &kp LBKT      &kp LBRC      &kp LT        &kp EQUAL     &kp PIPE
-      &none         &none         &none           &none         &none       &none             &none        &none          &none        &none         &none         &none
-// ├─────────────┼─────────────┼─────────────┼─────────────┼────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-//      &none         &none         &none          &none         &none        &none           &kp CARET      &kp AMPS      &kp STAR      &kp NUHS      &kp BSLH      &kp TILDE2 
-      &none         &none         &none           &none         &none       &none             &none        &none          &none        &none         &none         &none
-// ╰─────────────┴─────────────┴─────────────┼─────────────┼────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────┴─────────────╯
-                                                 &none         &none        &none              &none        &none         &none
-//                                            ╰─────────────┴───────────┴─────────────┤   ├─────────────┴────────────┴─────────────╯ 
-                        >;
-                };
 
                 syms2_layer {
                         label = "SYMS2";
